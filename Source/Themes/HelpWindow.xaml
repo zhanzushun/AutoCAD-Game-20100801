@@ -1,0 +1,42 @@
+﻿<UI:CustomChromeWindow x:Class="UI.HelpWindow"
+							  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+							  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+							  xmlns:UI="clr-namespace:UI"
+ 							  AllowsTransparency="True"
+							  WindowStyle="None"
+							  Title="帮助"
+							  Height="300"
+							  Width="400"
+							  Icon="/AutoCADGame;component/Themes/WindowIcon.png">
+	<Grid Margin="20">
+    <TextBlock Foreground="WhiteSmoke" FontSize="18" TextWrapping="Wrap">
+      <Run>按</Run>
+      <Run Foreground="Yellow">上</Run>
+      <Run>,</Run>
+      <Run Foreground="Yellow">下</Run>
+      <Run>,</Run>
+      <Run Foreground="Yellow">左</Run>
+      <Run>,</Run>
+      <Run Foreground="Yellow">右</Run>
+      <Run>键移动武器，以避免被球球撞到</Run>
+      <LineBreak />
+      <LineBreak />
+      <Run>按</Run>
+      <Run Foreground="Yellow">空格键</Run>
+      <Run>发射子弹</Run>
+      <LineBreak />
+      <LineBreak />
+      <Run>按</Run>
+      <Run Foreground="Yellow">W</Run>
+      <Run>,</Run>
+      <Run Foreground="Yellow">S</Run>
+      <Run>,</Run>
+      <Run Foreground="Yellow">A</Run>
+      <Run>,</Run>
+      <Run Foreground="Yellow">D</Run>
+      <Run>上下左右移动视角</Run>
+      <LineBreak />
+      <LineBreak />
+    </TextBlock>
+  </Grid>
+</UI:CustomChromeWindow>
