@@ -4,6 +4,8 @@
 本程序适用于AutoCAD 2010, 2011  
 This game has been tested on AutoCAD 2010,2011  
 
+### Note: you can create a better model to replace the one hosted in data.dwg
+
 如何运行  
 How to run:
 
